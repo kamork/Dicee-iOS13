@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        diceImageView1.
+        diceImageView1.image = UIImage(named: "DiceSix")
+        diceImageView1.alpha = 0.5
     }
 
 
